@@ -1,0 +1,35 @@
+body {
+    background-color: #999999;
+    margin: 0;
+}
+
+.barra-superior {
+    
+    background-color: black;
+    
+}
+
+.logo img {
+    width: 310px;
+    position: relative;
+    top: 50px;        
+}
+
+.explorador {
+    top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+.a {
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+}
