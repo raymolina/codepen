@@ -1,35 +1,197 @@
 body {
-    background-color: #999999;
-    margin: 0;
+  margin: 0;
+  background-color: rgba(48, 47, 47);
+  /* box-shadow: inset 1px 10px 84px 18px rgba(0,0,0,0.75); */
 }
 
-.barra-superior {
-    
-    background-color: black;
-    
+header {
+  background-color: rgba(8, 19, 52, 0.854);
+}
+img {
+  width: 215px;
+  height: 35px;
+  /* display: flex; */
+  position: relative;
+  top: 25px;
 }
 
-.logo img {
-    width: 310px;
-    position: relative;
-    top: 50px;        
+.palabra {
+  color: goldenrod;
+  position: relative;
+  right: 935px;
+  bottom: 30px;
 }
 
-.explorador {
-    top: 30px;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-
+.contener-left {
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
+
 .a {
-    position: relative;
-    left: 80px;
-    font-size: 20px;
+  position: relative;
+  left: 137px;
+  bottom: 10px;
 }
 
-.botones {
-    display: flex;
-    justify-content: end;
+.b {
+  position: relative;
+  right: 60px;
+  bottom: 10px;
+}
+
+.c {
+  position: relative;
+  right: 260px;
+  bottom: 10px;
+}
+
+.d {
+  position: relative;
+  right: 458px;
+  bottom: 10px;
+}
+
+.contener-spark {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  right: 110px;
+  bottom: 58px;
+  color: gray;
+}
+.contenedor-rigth {
+  display: flex;
+  justify-content: right;
+}
+
+.zz {
+  position: relative;
+  bottom: 118px;
+  background-color: grey;
+  width: 85px;
+  height: 50px;
+}
+
+.yy {
+  position: relative;
+  bottom: 118px;
+  background-color: grey;
+  width: 85px;
+  height: 50px;
+}
+
+.x {
+  position: relative;
+  bottom: 118px;
+  right: 50px;
+}
+
+.xx {
+  background-color: grey;
+  width: 85px;
+  height: 50px;
+}
+
+.icono {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  right: 178px;
+  font-size: 30px;
+  bottom: 150px;
+  color: grey;
+}
+
+.parrafo {
+  position: relative;
+  bottom: 70px;
+  left: 50px;
+  color: white;
+  font-size: 40px;
+}
+
+.parrafo-2 {
+  position: relative;
+  left: 50px;
+  bottom: 85px;
+  color: white;
+  font-size: 30px;
+}
+.img1 {
+  width: 500px;
+  height: 500px;
+}
+.imagen-codepen {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  bottom: 360px;
+}
+
+h1 {
+  color: blue;
+  font-size: 2;
+}
+
+span {
+  color: white;
+  font-size: 2;
+}
+.tx-container {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  right: 135px;
+  bottom: 25px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 500px;
+}
+
+.caja1 {
+  position: relative;
+  background-color: green;
+  width: 250px;
+  height: 65px;
+  text-align: center;
+  line-height: 60px;
+  bottom: 40px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 30px;
+}
+.caja2 {
+  color: white;
+  position: relative;
+  background-color: black;
+  width: 250px;
+  height: 65px;
+  text-align: center;
+  line-height: 60px;
+  bottom: 40px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 30px;
+  
+}
+
+.flexbox-buttom {
+  width: 100%;
+  position: relative;
+  bottom: 420px;
+  display: flex;
+  
+  color: grey;
+}
+.buttom1 {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  /* margin: 7px; */
+  border: 1px solid white;
 }
